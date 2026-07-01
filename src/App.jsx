@@ -717,7 +717,7 @@ function NewGame() {
 }
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/web-React">
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/Bomb" element={<Bomb />} />
